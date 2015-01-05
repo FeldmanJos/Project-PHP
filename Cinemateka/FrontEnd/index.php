@@ -22,18 +22,19 @@ $template = $twig->loadTemplate('greeting.html');
         <![endif]-->
     </head>
     <body>
-        <div id="intro" class="intro">
+        <div class="logo">
             <?php
             $params = array('imagen' => 'img/cinemateka.png');
             $template->display($params);
             ?>
+        </div>
+        <div id="intro" class="intro">
             <div class="slogan">
                 <select id="lista">
                     <option value="">Selecciona tu ciudad: </option>
                     <option id="lista" value="corrientes">Corrientes</option>
                     <option id="lista" value="resistencia">Resistencia</option>
                 </select>
-                
             </div>
         </div>
         <script type="text/javascript" src="js/main.js"></script>

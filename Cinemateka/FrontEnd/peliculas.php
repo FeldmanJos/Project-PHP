@@ -22,12 +22,15 @@ $template = $twig->loadTemplate('greeting.html');
         <![endif]-->
     </head>
     <body>
-        <div id="intro" class="intro">
+        <div class="logo">
             <?php
             $params = array('imagen' => 'img/cinemateka.png');
             $template->display($params);
             ?>
-            <div class="slogan"> Seleccioná tu cine:<br>
+        </div>
+        <div id="intro" class="intro">
+
+            <div class="slogan"> Seleccioná tu cine:<br><br>
             </div>
             <!--<ul>
                 <li>
@@ -49,17 +52,17 @@ $template = $twig->loadTemplate('greeting.html');
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <a href="">
                         <img src="img/cinemacenter.png" class="img-responsive" alt="img">Cinemacenter - Carrefour
                     </a>
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <a href="">
                         <img src="img/costa.png" class="img-responsive" alt="img">Cines de la Costa - Costanera
                     </a>
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <a href="">
                         <img src="img/costa.png" class="img-responsive" alt="img">Cines de la Costa - Shopping
                     </a>

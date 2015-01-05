@@ -46,6 +46,11 @@ p.lead {
     font-weight: 600;
 }
 
+.volver {
+    text-align: right;
+    padding: 10px 10px 0 0;
+}
+
 a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -303,7 +308,7 @@ hr {
 }
 
 #intro.intro {
-    padding:80px 0 2px 0;
+    padding:50px 0 2px 0;
 }
 
 .intro .slogan {
@@ -348,7 +353,9 @@ hr {
     color: #fff;
     text-shadow: -1px 1px 1px #000;
 }
-
+.logo {
+    padding:10px 0 0 10px;
+}
 
 /* ===========================
 --- About
@@ -386,24 +393,25 @@ hr {
 
 
 form#contact-form .form-group label {
-    text-align: left !important;
+    text-align: center;
     display: block;
     letter-spacing: 1px;
     font-size: 16px;
 }
 form#contact-form input,form#contact-form select,form#contact-form textarea {
     border-radius: 4px;
-    border: 1px solid #eee;
+    border: 1px solid #c8c8c8;
     -webkit-box-shadow: none;
     box-shadow:  none;
     font-size: 16px;
     margin-bottom: 20px;
+    
     background: #fefefe;
     color: #888;
 }
 
 form#contact-form input,form#contact-form select {
-    height: 40px;
+    height: 30px;
 }
 
 form#contact-form button {
@@ -420,21 +428,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
     background: #fff;
 }
 
-form#contact-form div.sidetip{position:absolute;left:402px;width:250px}
-form#contact-form.textbox div.sidetip{margin-top:8px}
-form#contact-form div.sidetip p{font-size:13px;line-height:16px;padding-left:18px;background-repeat:no-repeat;background-position:center left;
-                                color:gray;display:none}
-form#contact-form div.sidetip p.active{display:block}
-form#contact-form div.sidetip p.error{background-image:url(../img/error.png);color:#c33}
-form#contact-form div.sidetip p.isaok{background-image:url(../img/accept.png);color:#390}
-form#contact-formdiv.sidetip p.checking{background-image:url(../../img/t1/spinner-rosetta-gray-14x14.gif)}
-form#contact-form div.sidetip p.tip{padding-left:0}
-form#contact-form .tos div.sidetip{left:553px}
-form#contact-form .tos div.sidetip p{color:#8899a6;line-height:14px}
-form#contact-form .tos div.sidetip p a{color:#69a7d7}
-form#contact-form .tos div.sidetip p a:hover{color:#2d76b9}form#contact-form .tos .sidetip p.info,
-form#contact-form .password .sidetip p.invalid,form#contact-form .email .sidetip p.taken,
-form#contact-form .username .sidetip p.isaok,form#contact-form .username .sidetip p.blank{line-height:16px;position:relative;top:-8px}
+.centrar-boton {
+    text-align: center;
+}
 
 /* ===========================
 --- Footer
@@ -660,17 +656,16 @@ ul{
 }
 
 .container {
-    width:1170px;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    text-align: center;
 }
 
 .container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
 
-.row{margin-left: -15px;
-margin-right: -15px;
+.row{margin-right: auto;
+    margin-left: auto;
 }
 
 .col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,
