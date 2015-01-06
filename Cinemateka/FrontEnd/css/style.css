@@ -51,6 +51,12 @@ p.lead {
     padding: 10px 10px 0 0;
 }
 
+.cartelera {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
 a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;

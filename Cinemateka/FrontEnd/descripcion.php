@@ -23,7 +23,7 @@ $template = $twig->loadTemplate('greeting.html');
     </head>
     <body>
         <div class="volver" >
-            <a href="cines.php">Volver a Cines</a>
+            <a href="peliculas.php">Volver a Cartelera</a>
         </div>
         <div class="logo">
             <img src="img/costa.png"/>
@@ -32,31 +32,29 @@ $template = $twig->loadTemplate('greeting.html');
 
             <div class="slogan"><h1>Cines de la Costa - Shopping</h1><br><br>
             </div>
-            <div class="cartelera" >
-                <p>Cartelera Semana Jueves 25/12 - Miercoles 31/12</p>
-            </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="descripcion.php">
-                        <img src="img/thumb/1.jpg" class="img-responsive" alt="img"><br>El Aprendiz
-                    </a>
+                <div class="col-sm-3 col-md-3 col-lg-3" >
+                    <img src="img/1.jpg" class="img-responsive" alt="img"><br>El Aprendiz
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="">
-                        <img src="img/thumb/2.jpg" class="img-responsive" alt="img"><br>Grandes Heroes
-                    </a>
-                </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="">
-                        <img src="img/thumb/3.jpg" class="img-responsive" alt="img"><br>Exodo: Dioses y Reyes
-                    </a>
-                </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="">
-                        <img src="img/thumb/4.jpg" class="img-responsive" alt="img"><br>Regreso del Infierno
-                    </a>
+                <div class="col-sm-7 col-md-7 col-lg-7">
+                    <h3>SINOPSIS</h3>
+                    <p>
+                        Peter Devereaux es un veterano y peligroso ex agente de
+                        la CIA, que disfruta de unas vacaciones y lleva una vida
+                        tranquila en Suiza. Pero, de pronto, lo llaman de su retiro
+                        para realizar una última misión: proteger a la bella Alice
+                        Fournier, una testigo clave para la Agencia.
+                    </p>
+                    <hr>
+                    <h3>DESCRIPCION</h3>
+                    <p style="text-align: left">Género: Suspenso , Policial , Acción.<br>
+                       Duración: 108 Minutos
+                    </p>
+                    <hr>
+                    <h3>HORARIOS</h3>
+                    <p style="color: red">18:00 | 20:00-SUB | 21:45</p>
                 </div>
             </div>
         </div>

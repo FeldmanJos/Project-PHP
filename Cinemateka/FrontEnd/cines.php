@@ -23,39 +23,32 @@ $template = $twig->loadTemplate('greeting.html');
     </head>
     <body>
         <div class="volver" >
-            <a href="cines.php">Volver a Cines</a>
+            <a href="index.php">Volver a Inicio</a>
         </div>
         <div class="logo">
-            <img src="img/costa.png"/>
+            <?php
+            $params = array('imagen' => 'img/cinemateka.png');
+            $template->display($params);
+            ?>
         </div>
         <div id="intro" class="intro">
-
-            <div class="slogan"><h1>Cines de la Costa - Shopping</h1><br><br>
-            </div>
-            <div class="cartelera" >
-                <p>Cartelera Semana Jueves 25/12 - Miercoles 31/12</p>
-            </div>
+            <div class="slogan"> Seleccioná tu cine:<br><br></div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="descripcion.php">
-                        <img src="img/thumb/1.jpg" class="img-responsive" alt="img"><br>El Aprendiz
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="">
+                        <img src="img/cinemacenter.png" class="img-responsive" alt="img"><br>Cinemacenter - Carrefour
                     </a>
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <a href="">
-                        <img src="img/thumb/2.jpg" class="img-responsive" alt="img"><br>Grandes Heroes
+                        <img src="img/costa.png" class="img-responsive" alt="img"><br>Cines de la Costa - Costanera
                     </a>
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="">
-                        <img src="img/thumb/3.jpg" class="img-responsive" alt="img"><br>Exodo: Dioses y Reyes
-                    </a>
-                </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <a href="">
-                        <img src="img/thumb/4.jpg" class="img-responsive" alt="img"><br>Regreso del Infierno
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="peliculas.php">
+                        <img src="img/costa.png" class="img-responsive" alt="img"><br>Cines de la Costa - Shopping
                     </a>
                 </div>
             </div>
